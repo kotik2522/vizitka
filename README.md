@@ -1,7 +1,7 @@
 Сайт-визитка для фотографа
 
  Автор
-- ФИО: Иванов Иван Иванович
+- ФИО: Саликова Снежана Игоревна
 - Группа: ИСИП-231
 - Специальность: 09.02.07 «Информационные системы и программирование»
 
@@ -10,8 +10,8 @@
 Содержит портфолио, информацию об услугах и контакты.
 
  Ссылки
-- GitHub репозиторий: https://github.com/username/photographer-website
-- GitHub Pages: https://username.github.io/photographer-website
+- GitHub репозиторий: https://github.com/kotik2522/vizitka
+- GitHub Pages: https://kotik2522.github.io/vizitka/
 
  Используемые технологии
 - HTML5
