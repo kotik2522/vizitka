@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Annette Fox | Фотограф</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="img/camera.svg">
+</head>
+
+<body>
+    <!-- хедер (header) -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <div class="logo-wrapper">
+                    <img src="img/camera.svg" alt="Логотип" width="40" height="40">
+                    <span class="logo-text">Annette Fox</span>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Портфолио</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Услуги</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacts">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- приветствие (hero section)-->
+        <section class="hero-section" id="home">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Профессиональная фотосъёмка</h1>
+                    <p class="hero-subtitle">
+                        Ловлю моменты, создаю воспоминания.
+                    </p>
+                    <a href="#contacts" class="btn-primary">Связаться со мной</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- портфолио (portfolio gallery)-->
+        <section class="portfolio-section" id="portfolio">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Мои работы</h2>
+                </div>
+                <div class="portfolio-grid">
+                    <div class="portfolio-card">
+                        <img src="img/wedding.jpg" class="portfolio-img" alt="Свадебная фотосессия">
+                        <div class="portfolio-card-body">
+                            <h5 class="portfolio-card-title">Свадьба</h5>
+                            <p class="portfolio-card-text">Полный день съёмки, 300+ фотографий</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-card">
+                        <img src="img/portrait1.jpg" class="portfolio-img" alt="Портрет в студии">
+                        <div class="portfolio-card-body">
+                            <h5 class="portfolio-card-title">Студийный портрет</h5>
+                            <p class="portfolio-card-text">Работа со светом и образом</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-card">
+                        <img src="img/couple.jpg" class="portfolio-img" alt="Love story в парке">
+                        <div class="portfolio-card-body">
+                            <h5 class="portfolio-card-title">Love story в осеннем парке</h5>
+                            <p class="portfolio-card-text">Естественные эмоции и краски осени</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- услуги (services) -->
+        <section class="services-section" id="services">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Что я предлагаю</h2>
+                    <p class="section-subtitle">Пакеты услуг</p>
+                </div>
+                <div class="services-flex">
+                    <div class="service-card">
+                        <div class="service-card-body">
+                            <div class="service-icon">
+                                <i class="bi bi-camera"></i>
+                            </div>
+                            <h4 class="service-card-title">Индивидуальная фотосессия</h4>
+                            <p class="service-card-text">
+                                2 часа съёмки, 50 обработанных фото, консультация по образам и локациям.
+                            </p>
+                            <div class="service-price">от 8 000 ₽</div>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-card-body">
+                            <div class="service-icon">
+                                <i class="bi bi-heart"></i>
+                            </div>
+                            <h4 class="service-card-title">Свадебная съёмка</h4>
+                            <p class="service-card-text">
+                                Полный день, 300+ фото, предсвадебная встреча, срочная обработка 10 кадров.
+                            </p>
+                            <div class="service-price">от 40 000 ₽</div>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-card-body">
+                            <div class="service-icon">
+                                <i class="bi bi-building"></i>
+                            </div>
+                            <h4 class="service-card-title">Коммерческая съёмка</h4>
+                            <p class="service-card-text">
+                                Для брендов, ресторанов, блогеров. Обсуждение проекта индивидуально.
+                            </p>
+                            <div class="service-price">от 15 000 ₽</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- контакты (contact) -->
+        <section class="contacts-section" id="contacts">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Связаться со мной</h2>
+                </div>
+                <div class="contacts-wrapper">
+                    <div class="contacts-info">
+                        <h4 class="contacts-title">Контактная информация</h4>
+                        <ul class="contacts-list">
+                            <li class="contact-item">
+                                <i class="bi bi-geo-alt contact-icon"></i>
+                                <span>г. Москва, ул. Творческая, д. 10</span>
+                            </li>
+                            <li class="contact-item">
+                                <i class="bi bi-envelope contact-icon"></i>
+                                <span>photo@example.com</span>
+                            </li>
+                            <li class="contact-item">
+                                <i class="bi bi-telephone contact-icon"></i>
+                                <span>+7 (ХХХ) ХХХ-ХХ-ХХ</span>
+                            </li>
+                        </ul>
+                        <!-- <h5 class="social-title">Социальные сети</h5> -->
+
+
+                    </div>
+                    <div class="contact-form">
+                        <h4 class="form-title">Напишите мне</h4>
+                        <form class="form-wrapper">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Ваше имя" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="E-mail" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" rows="5" placeholder="Напишите сообщение..."
+                                    required></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn-primary">Отправить сообщение</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- подвал (footer) -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span>© 2025 Annette Fox. Все права защищены. </span>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-btn">
+                        <i class="bi bi-telegram"></i> Telegram
+                    </a>
+                    <a href="#" class="social-btn">
+                        <i class="bi bi-vk"></i> VK
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
